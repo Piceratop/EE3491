@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Hello world examples",
+            "command": "gcc.exe",
+            "args": [
+                "-g",
+                "${workspaceFolder}/tictactoe.c",
+                "${workspaceFolder}/playgame.c",
+                "-o",
+                "${workspaceFolder}/tictactoe.exe"             
+            ],
+            "options": {
+                "cwd": "C:/mingw64/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+ 
+    ]
+}

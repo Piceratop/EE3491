@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Hello world examples",
+            "command": "gcc.exe",
+            "args": [
+                "-g",
+                "${workspaceFolder}/f1.c",
+                "-o",
+                "${workspaceFolder}/f1.exe"             
+            ],
+            "options": {
+                "cwd": "C:/mingw64/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+ 
+    ]
+}
