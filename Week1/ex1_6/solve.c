@@ -7,12 +7,12 @@ int is_complex_zero(_Complex double a) {
 }
 
 int solve_linear_equation(_Complex double *solution_array, const _Complex double *a, const _Complex double *b) {
-   if (is_complex_zero(*a))
-      if (is_complex_zero(*b)) {
+   if (is_complex_zero(*a)) }
+      if (is_complex_zero(*b))
          return -1;
-      } else {
+      else
          return 0;
-      }
+   }
    solution_array[0] = -*b / *a;
    return 1;
 }
