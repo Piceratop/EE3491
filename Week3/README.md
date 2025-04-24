@@ -20,7 +20,7 @@ Main Function
 │       ├── Data Record (Type 0)
 │       ├── Extended Linear Address Record (Type 4)
 │       └── End of File Record (Type 1)
-└── Display Hex Data
+└── displayHexData
    ├── Print Hexadecimal Values
    └── Print ASCII Representation
 ```
